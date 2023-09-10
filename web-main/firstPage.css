@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+   
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('backG.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    z-index: 99;
+    position: fixed;
+    background-color: #d1e1f3; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.logo{
+    font-size: 1.5em;
+    color: #152b49;
+    user-select: none;
+    justify-content: left;
+}
+
+
+.Navigation{
+    position: relative;
+    font-size: 0.89em;
+    color: #3685eb;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    
+}
+
+
+.Navigation a:hover {
+    color: red; 
+}
+.Navigation .a{
+    color: #3685eb;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    padding: 10px 20px;
+
+}
+
+.Navigation .b{
+    color: #3685eb;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    padding: 10px 20px;
+
+}
+
+.Navigation .c{
+    color: #3685eb;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    padding: 10px 20px;
+
+}
+.Navigation .d{
+    color: #3685eb;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    padding: 10px 20px;
+
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the <h1> heading */
+h1 {
+    font-family: 'Arial', sans-serif; /* Change font family to Arial or any preferred font */
+    font-weight: bold; /* Make the text bold */
+    font-size: 36px; /* Increase font size for a larger, appealing heading */
+    color: #000; /* Set the text color to a dark shade */
+    text-align: center; /* Center align the text */
+    margin: 15px 0; /* Add space around the heading */
+}
+
+/* Style the navigation links and change color on hover */
+.Navigation {
+    position: relative;
+    font-size: 0.89em;
+    color: #3685eb;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.Navigation a:hover {
+    color: red; /* Change color to red on hover */
+}
+
+/* Style the buttons within .options to align in one line */
+.options {
+    display: flex; /* Make the options a flex container */
+    justify-content: center; /* Center align the options horizontally */
+    margin-top: 20px; /* Add some space between the main content and options */
+}
+
+.options .btnLogin-popup {
+    width: 20%;
+    margin-left: 0px;
+    margin-right: 40px;
+    background: #3685eb;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #aecaee;
+    color: #020f2b;
+    text-decoration: none;
+    text-align:center;
+    font-size: 13px;
+}
+
+/* Style the <p> elements */
+p {
+    font-size: 18px; /* Increase font size for better readability */
+    color: #000; /* Set text color to a slightly lighter shade */
+    text-align: center; /* Center align the text */
+    margin-bottom: 20px; /* Add space below the paragraphs */
+    line-height: 1.5; /* Adjust line height for better readability */
+}
+
+.regLog {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.regLog .btnLogin-popup {
+    width: 20%;
+    margin-left: 0px;
+    margin-right: 40px;
+    background: transparent;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #3685eb;
+    color: #b4cee9;
+    text-decoration: none;
+    text-align:center;
+    font-size: 15px;
+}
+
